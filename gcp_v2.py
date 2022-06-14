@@ -21,8 +21,12 @@ def load_emails(email_file):
 		emails(list): a list of usernames.
 
 	'''
-	with open(email_file) as file_handle:
-		return [line.strip() for line in file_handle.readlines()]
+	try:
+		with open(email_file) as file_handle:
+			return [line.strip() for line in file_handle.readlines()]
+	except:
+		print("{} is not a file.".format(email_file))
+		exit()
 
 def password_options(email, password):
 	global driver
