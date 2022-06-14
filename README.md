@@ -16,7 +16,8 @@ GCP PW Spray is designed to run on Kali Linux. It will auto detect the file you 
 
 ### Setup:
 
-1. Run the setup.sh script
+1. chmod +x setup.sh
+2. Run the setup.sh script as root.
 
 ### Usage:
 ```
