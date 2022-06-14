@@ -14,6 +14,10 @@ GCP PW Spray is designed to run on Kali Linux. It will auto detect the file you 
 - Debian 7+
 - [More to come]
 
+### Setup:
+
+1. Run the setup.sh script
+
 ### Usage:
 ```
 python3 gcp_v2.py -f emails.txt -p 'Password'
