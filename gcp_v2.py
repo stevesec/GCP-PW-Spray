@@ -87,7 +87,7 @@ def password_spray(email,password):
 		password_options(emails,password)
 
 if __name__ == '__main__':
-	parser = argparse.ArgumentParser('python3 gcp_v2.py -u userfile -p 'Password')
+	parser = argparse.ArgumentParser("python3 gcp_v2.py -u userfile -p 'Password'")
 	parser.add_argument('-u', dest='filename', help='Email list you want to spray', type=str)
 	parser.add_argument('-p', dest='password', help='Password to use for spraying', type=str)
 	args=parser.parse_args()
