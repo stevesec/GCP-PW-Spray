@@ -28,9 +28,6 @@ echo
 echo '[*] Installing Python Modules'
 python3 -m pip install undetected_chromedriver
 python3 -m pip install selenium --upgrade
-python3 -m pip install time
-python3 -m pip install argparse
-python3 -m pip install os
 echo
 wget ${chrome}
 dpkg -i google-chrome-stable_current_amd64.deb
