@@ -31,6 +31,7 @@ python3 gcp_v2.py -f emails.txt -p 'Password'
 - [ ] Add CAPTCHA response
 - [ ] Add support for more passwords
 - [ ] Add support for more Google login pages
+- [ ] Create GCP Enumeration
 
 ## Inspiration:
 
